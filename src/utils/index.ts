@@ -2,12 +2,12 @@ import { User } from "@stytch/core/public";
 
 async function deleteUser(userId: string): Promise<any> {
   try {
-    const response = await fetch('http://localhost:3001/delete_user', {
-      method: 'POST',
+    const response = await fetch("http://localhost:3001/delete_user", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({user_id: userId}),
+      body: JSON.stringify({ user_id: userId }),
     });
     return await response.json();
   } catch (error) {

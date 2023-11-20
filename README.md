@@ -23,7 +23,7 @@ Follow the steps below to get this application fully functional and running usin
 
 1. Create a [Stytch](https://stytch.com/) account. Within the signup flow select **B2C Authentication** as the authentication type you are interested in. Once your account is set up a Project called "My first project" will be automatically created for you.
 
-    - If you signed up for Stytch in the past then your default Project is likely a Consumer type Project. You can confirm this in your [Project settings](https://stytch.com/dashboard/project-settings).
+   - If you signed up for Stytch in the past then your default Project is likely a Consumer type Project. You can confirm this in your [Project settings](https://stytch.com/dashboard/project-settings).
 
 2. Navigate to [SDK Configuration](https://stytch.com/dashboard/sdk-configuration) and click "Enable SDK". Enter the domain you will be running this application on (e.g. `localhost:3000`).
    Click the toggle to enable "Email Passcodes (OTP)", "SMS Passcodes (OTP)", and "Passkeys".

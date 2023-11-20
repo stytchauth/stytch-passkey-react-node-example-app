@@ -48,12 +48,7 @@ function SideNavBar(props: Props) {
           </Typography>
         </Box>
         <Box display="flex" alignItems="center">
-          <img
-            src="/auto_graph.png"
-            alt="Vector art"
-            width="24"
-            height="24"
-          />
+          <img src="/auto_graph.png" alt="Vector art" width="24" height="24" />
           <Typography marginLeft={1} variant="h3">
             Reports
           </Typography>

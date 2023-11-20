@@ -25,7 +25,7 @@ import {
   StytchEventType,
 } from "@stytch/core/public";
 import ResetUserStateButton from "../components/mobile/ResetUserStateButton";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const SESSION_DURATION_MINUTES = 60;
 
@@ -43,11 +43,13 @@ const StepUp = ({ type }: { type: StepUpType }) => {
   const stytch = useStytch();
 
   const validateOTPButtonClick = () => {
-    stytch.otps.authenticate(inputValue, methodID, {
-      session_duration_minutes: SESSION_DURATION_MINUTES,
-    }).catch((e) => {
+    stytch.otps
+      .authenticate(inputValue, methodID, {
+        session_duration_minutes: SESSION_DURATION_MINUTES,
+      })
+      .catch((e) => {
         setError("Error occurred validating OTP: " + e);
-    });
+      });
   };
 
   const handleSendOTPButtonClick = () => {
@@ -242,12 +244,7 @@ function Dashboard() {
                 width="24"
                 height="24"
               />
-              <img
-                src="/account.png"
-                alt="Vector art"
-                width="53"
-                height="53"
-              />
+              <img src="/account.png" alt="Vector art" width="53" height="53" />
               <ResetUserStateButton />
             </Stack>
           </Box>
