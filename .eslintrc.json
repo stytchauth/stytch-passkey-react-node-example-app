@@ -1,5 +1,5 @@
 {
-  "extends": "next/core-web-vitals",
+  "extends": ["prettier"],
   "rules": {
     "react/jsx-curly-brace-presence": [
       "error",
