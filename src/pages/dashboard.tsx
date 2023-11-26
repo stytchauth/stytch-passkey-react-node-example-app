@@ -218,9 +218,6 @@ function Dashboard() {
 
   return (
     <>
-      {/*<Head>*/}
-      {/*  <title>Survey Amp | Dashboard</title>*/}
-      {/*</Head>*/}
       <Box display="flex" width="100%" height="100vh" flexDirection="column">
         {isMobile ? (
           <MobileHeader logout={logout} showResetUserState={true} />

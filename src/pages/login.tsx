@@ -55,9 +55,6 @@ function LoginPage() {
 
   return (
     <>
-      {/*<Head>*/}
-      {/*    <title>Survey Amp | Login</title>*/}
-      {/*</Head>*/}
       <Box width="100%" height="100vh" display="flex">
         <Box
           display="flex"
