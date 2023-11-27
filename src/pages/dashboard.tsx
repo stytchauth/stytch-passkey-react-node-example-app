@@ -6,10 +6,7 @@ import {
   Typography,
   useMediaQuery,
 } from "@mui/material";
-// import Image from "next/image";
-// import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-// import Head from "next/head";
 import {
   StytchPasskeyRegistration,
   useStytch,

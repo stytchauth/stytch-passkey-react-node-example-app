@@ -7,7 +7,6 @@ import {
   InputAdornment,
   Link,
 } from "@mui/material";
-// import Image from "next/image";
 
 import Search from "@mui/icons-material/Search";
 import LogoutIcon from "@mui/icons-material/Logout";
