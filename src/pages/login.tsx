@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { OTPMethods, Products, StytchEventType } from "@stytch/vanilla-js";
 import { useStytchUser, StytchLogin } from "@stytch/react";
-// import Head from "next/head";
 import { Box, useMediaQuery } from "@mui/material";
 import MobileHeader from "../components/mobile/MobileHeader";
 import ContactStytch from "../components/ContactStytch";
